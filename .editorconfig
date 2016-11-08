@@ -1,0 +1,20 @@
+root = true
+
+[*]
+charset = utf8
+indent_size = 2
+end_of_line = lf
+indent_style = space
+trim_trailing_whitespace = true
+quote_type = double
+
+[*.js,*jsx]
+quote_type = single
+curly_bracket_next_line = false
+indent_brace_style = K&R
+
+[*.py]
+indent_size = 4
+
+[Makefile]
+indent_style = tab

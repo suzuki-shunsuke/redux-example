@@ -1,3 +1,7 @@
+/**
+ * App - React Component
+ */
+
 import React, { Component } from 'react';
 
 import Checkbox from './Checkbox.jsx';

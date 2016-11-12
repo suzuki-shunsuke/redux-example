@@ -8,4 +8,8 @@ class ResultSpace extends Component {
   }
 }
 
+ResultSpace.PropTypes = {
+  checked: React.PropTypes.bool.isRequired
+};
+
 export default ResultSpace;
